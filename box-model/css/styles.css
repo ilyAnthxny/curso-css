@@ -1,0 +1,109 @@
+body{
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+}
+
+/* .header{ 
+    background-color: crimson; 
+} */
+
+
+/* Solo se le pueden dar medidas a los elementos que sean de bloque */
+/* .block{  
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+    padding: 10px 10px 10px 10px; 
+    border: 1px solid green;
+    border-radius: 20px;
+    box-shadow: 5px 5px red, 10px 10px blue;
+}*/
+/* No se le pueden dar medidas de height y width a los elementos de linea */
+/* .inline{ 
+    background-color: cyan;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 1px 1px;
+    color: black;
+    text-align: center;
+    
+} */
+
+/* El padding agranda las cajas y el margin los separa de las demas cajas */
+/* Border:permite modificar las medidas de los bordes
+border-width: ancho del borde
+border-style:estilo del borde
+border-color:  */
+/* El Margin es la propiedad que nos permite generar espacio entre los elementos
+margin-top: Margen superior
+marg in-bottom: margen inferior
+margin-left: margen izquierdo
+margin-right: margen derecho
+
+podemos colar mas valores en una linea de codigo si colocamos los margin en lista desde el top hacia la derecha*/
+
+
+.container{
+    background-color: darkgray;
+    width: 300px;
+    height: 300px;
+}
+
+.box-1{
+    background-color: blueviolet; 
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    position: relative;
+}
+
+.box-2{
+    background-color: cornflowerblue;
+    width: 200px;
+    height: 200px;
+}
+
+.box-3{
+    background-color: darkred;
+    width: 200px;
+    height: 200px;
+}
+
+/* Orden de propiedades ( recomendado)
+1- Propiedades de posicionamiento
+2- Propiedades del box model
+3- Propiedades de texto
+4- Propiedades visuales (texto,colores,bordes, bakcground)
+5- El resto */
+
+.orden{
+    /* position */
+    position: relative;
+    top: o;
+    left: 0;
+
+    /* box model */
+    display: block;
+    width: 300px;
+    height: 600px;
+    padding: 10px;
+    margin: 10px;
+    overflow: hidden;
+
+    /* Text */
+    font-size: 16px;
+    text-align: center;
+
+    /* visual */
+    color: palevioletred;
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: royalblue;
+
+    /* Resto */
+    opacity: 1;
+
+}

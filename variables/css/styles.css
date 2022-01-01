@@ -1,0 +1,245 @@
+
+/* Variables css */
+
+/* :root{
+    --color: red;
+    --border: 2px solid white;
+}
+
+body{
+    color: blanchedalmond;
+    background-color: black;
+}
+
+.paragraph{
+    color: var(--color);
+}
+
+.article{
+    --color: blue;
+}
+
+.check:checked + .box{
+    --color:purple;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: var(--color);
+    border: var(--border);
+} */
+
+
+/* Background */
+
+/* body{
+    padding-bottom: 50em;
+    text-align: center;
+}
+
+[class^="bg-"]{
+    display: inline-block;
+    width: 30%;
+    height: 150px;
+    border: 1px solid purple;
+}
+
+.bg-color{
+    background-color: blue;
+}
+
+.bg-image{
+    background-image: url(assets/images/size.jpg);
+}
+
+.bg-size{
+    background-image: url(assets/images/imge.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+.bg-position{
+    background-image: url(assets/images/imge.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: top right;
+} */
+
+/* bg-origin : redimensiona la imagen del fono para que ocupe la zona que le decimos
+bg-clip : muestra la imagen desde donde le decimos, solo oculta, no redimenciona */
+
+/* EFECTO PARALLAX */
+/* .bg-attachment{
+    width: 100%;
+    background-image: url(assets/images/size.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    height: 400px;
+ } */
+
+/* .bg-multiple{
+    background-image: 
+    url(assets/images/imge.jpg),
+    url(assets/images/size.jpg);
+    background-size: 40%, contain;
+    background-repeat: no-repeat;
+    background-position: bottom right, center;
+    background-attachment: scroll, fixed;
+} */
+
+/* Tipografias */
+
+/* .title{
+    font-family: monospace;
+    font-size: 10vmin;
+    text-align: center;
+    font-style: italic;
+    text-transform: uppercase;
+    display: block;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.paragraph{
+    font-weight: bold;
+    text-align: justify;
+    text-indent: 30px;
+    letter-spacing: 10px;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.box__item{
+    height: 400px;
+    width: 400px;
+    background: purple;
+} */
+
+/* Listas */
+
+/* .list{
+    list-style: lower-latin;
+    list-style: none;
+}
+
+.list__item::before{
+    content: "";
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-image: url(assets/images/imge.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-right: 1em;
+} */
+
+
+/* Tablas */
+
+/* .table{
+    table-layout: fixed;
+    width: 70%;
+    text-align: center;
+} */
+
+/* .table{
+    caption-side: bottom;
+    border-spacing: 1rem;
+    border: 1px solid black;
+} */
+
+/* .table__data, .table__head{
+    border: 1px solid black;
+    background-color: rebeccapurple;
+}
+
+.table{
+    border-collapse: separate;
+    border: 1px solid black;
+    width: 100%;
+    
+}
+
+.container{
+    overflow-x: auto;
+} */
+
+
+/* Imagenes */
+
+/* .img{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.container{
+    background: red; 
+} */
+
+/* .img{
+    object-fit: contain;
+    width: 100%;
+    height: 450px;
+    background-color: red;
+}
+
+.img-2{
+    width: 250px;
+    height: 450px;
+    object-fit: cover;
+    object-position: center;
+    transition: object-position 2s;
+}
+
+.img-2:hover{
+    object-position: right;
+} */
+
+/* .img-2{
+    width: 100%;
+    /* filter: blur(10px); */
+    /* filter: brightness(.5) */
+    /* filter: contrast(.5); */
+    /* filter: drop-shadow(10px 10px 10px  black) */
+    /* filter: grayscale(1); */
+    /* filter: hue-rotate(45deg); */
+    /* filter: invert(1); */
+    /* filter: opacity(.2); */
+    /* filter: saturate(.1); */
+    /* filter: sepia(.8); 
+
+} */
+
+/* .img-2:hover{
+    filter: none;
+} */
+
+
+
+/* CLip path */
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: lawngreen;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box__item{
+    background-color: rebeccapurple;
+    width: 400px;
+    height: 400px;
+    /* clip-path: circle(100px at top); */
+    /* clip-path: ellipse(100px 50px at top); */
+    /* clip-path: inset(10px round 40px 10px); */
+    /* clip-path: polygon(25% 25%, 75% 25%, 75% 75%, 25% 75%); */
+    
+
+
+}

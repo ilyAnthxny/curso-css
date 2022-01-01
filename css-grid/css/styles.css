@@ -1,0 +1,17 @@
+
+.container div:hover{
+    border: 1px solid black;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 1em;
+    justify-items: ;
+}
+
+.container div{
+    background-color: aqua;
+    padding: 1em;
+}

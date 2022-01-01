@@ -1,0 +1,66 @@
+.flex-container{
+    width: 400px;
+    height: 400px;
+    background-image: linear-gradient(blue, red);
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+
+
+
+    display: flex;
+
+    /* Para que los elementos salten de linea o evitar que salten de linea */
+    /* flex-wrap: wrap;
+    flex-wrap: wrap-reverse; */
+    
+    /* Modifica la direccion y orientacion de los ejes */
+    /* flex-direction: row-reverse;
+    flex-direction: column-reverse; */
+
+
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+
+    flex-direction: column;
+
+
+}
+
+.box{
+    background-color: blueviolet;
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.box:nth-child(2){
+    background-color: blue;
+    /* flex-grow: 1; */
+    /* flex-shrink: 2; */
+    /* flex-basis: 300px; */
+}
+
+.box:nth-child(3){
+    background-color: crimson;
+    /* flex-grow: 2; */
+    /* order: 1; */
+}
+
+.box:nth-child(4){
+    background-color: cyan;
+}
+
+.box:nth-child(5){
+    background-color: darkgreen;
+}
+
+.box:hover{
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px black;
+    color: black;
+}

@@ -1,0 +1,29 @@
+/*  *:Selector universal
+    .: Selector por class
+    #:Selector por Id
+    []:Otros atributos se seleccionan con las llaves 
+    */
+    [href]{
+        background-color: chartreuse;
+        color: white;
+    }
+
+    [href="https://youtube.com"]{
+        background-color: cornflowerblue;
+    }
+
+     /* Selectores agrupados
+     se pueden cambiar los estilos de clases similares poniendolos en filas, es mas legible */
+
+    .text-1,
+    .text-2,
+    .text-3{
+        background-color: crimson;
+    }
+/* Selectores combinadores
+descendente: Se puede selecionar un elemento dentro de otro */
+    div .subtitle-2{
+        background-color: darkgoldenrod;
+    }
+
+    

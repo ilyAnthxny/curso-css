@@ -1,0 +1,147 @@
+/* Pseudoelementos*/
+
+/* ::first-line (elementos de bloque)
+   ::first-letter (elementos de bloque)
+   ::before-
+   ::after----La propiedad content es obligatoria, son elementos de linea por defecto
+   ::selection (retirado de la especificacion pero aun funciona*/
+
+/* .title::first-letter{
+    color: red;
+    font-size: 3em;
+}
+
+.text::first-line{
+    color: royalblue;
+}
+
+.text::selection{
+    color: lime;
+    background-color: royalblue;
+}
+
+.dolar::before,
+.dolar::after{
+    content: "$$";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: royalblue;
+} */
+
+/* Pseudoclases */
+
+/* Dynamic
+:link (link no visitado)
+:visited (link visitado)
+:hover (al poner el mouse sobre el elementos)
+:active (links al momento del click)
+:focus (*/
+
+/* .link:link{
+    color: red;
+}
+
+.link-2:visited{
+    color: lime;
+}
+
+.link:active{
+    color: magenta;
+    background: maroon;
+}
+
+.button{
+    text-decoration: none;
+    display: inline-block;
+    background: midnightblue;
+    padding: 1em;
+    border-radius: 10px;
+    color: white;
+}
+
+.button:active{
+    transform: scale(.9);
+}
+
+.button:hover{
+    border: 1px solid red;
+}
+
+.title:hover{
+    color: purple;
+}
+
+.input:focus{
+    background-color: purple;
+}
+
+.menu{
+    background-color: lightblue;
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.text{
+    margin-top: 500px;
+    margin-bottom: 500px;
+}
+
+.text:target{
+    padding-top: 75px;
+} */
+
+/* .span{
+    display: block;
+}
+
+.span:lang(en){
+    color: red;
+}
+
+.span:lang(es){
+    color: lightslategray;
+}
+ */
+
+
+ /* Pseudoclases importantes */
+
+ /* .paragraph{
+     background-color: lightskyblue;
+     pad: .5em;
+ } */
+
+ .paragraph:empty{
+     padding: 0;
+     all: unset;
+ }
+
+
+ /* .paragraph:first-child{
+     background-color: purple;
+ }
+
+ .paragraph:last-child{
+     background-color: rebeccapurple;
+ } */
+
+ /* Selecciona los numeros pares */
+.paragraph:nth-child(odd){ 
+    background-color: rebeccapurple;
+}
+
+/* Selecciona los numeros impares */
+.paragraph:nth-child(even){
+    background-color: royalblue;
+}
+
+
+

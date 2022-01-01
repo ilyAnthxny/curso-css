@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 150px 1fr 150px;
+    grid-template-rows: 150px 1fr 100px;
+    min-height: 100vh;
+    grid-gap: 5px;
+}
+
+.header{
+    background-color: blueviolet;
+    grid-column: 1/4;
+}
+
+.main{
+    background-color: crimson;
+    grid-column: 2/3;
+}
+
+.aside-left{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.grid-right{
+    grid-column: 3/4;
+}
+
+.aside{
+    background-color: magenta;
+}
+
+.footer{
+    background-color: lime;
+    grid-column: 1/4;
+}
